@@ -1,0 +1,75 @@
+/* 전체 적용 */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 레이아웃 */
+nav {
+    background-color: skyblue;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 40px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+header {
+    background-color: #FF9494;
+}
+
+header>section {
+    display: flex;
+}
+
+.header_left,
+.header_right {
+    margin: 20px;
+}
+
+.header_left {
+    width: 30%;
+    text-align: center;
+}
+
+.header_right {
+    width: 70%;
+
+}
+
+main {
+    background-color: #ECC5FB;
+    display: flex;
+}
+
+main>section {
+    width: 25%;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 25%;
+}
+
+footer {
+    background-color: #3D8361;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer>h2,
+footer>ul {
+    margin: 10px;
+}
+
+footer>ul {
+    margin: none;
+    list-style: none;
+}
